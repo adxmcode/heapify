@@ -73,7 +73,10 @@ int main() {
     std::cout << "Before: ";
     printArray(test);
     heapifyMaxEntire(test);
-    std::cout << "After Heapify: ";
+    std::cout << "After Heapify Max: ";
+    printArray(test);
+    heapifyMinEntire(test);
+    std::cout << "After Heapify Min: ";
     printArray(test);
     return 0;
 }
