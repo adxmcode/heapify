@@ -69,6 +69,7 @@ void printArray(std::vector<int>& test) {
 }
 
 int main() {
+    //Feel free to edit the test vector. 
     std::vector<int>test = {45, 12, 16, 12, 19, 1, 3, 4, 6, 5, 2};
     std::cout << "Before: ";
     printArray(test);
