@@ -70,7 +70,14 @@ void printArray(std::vector<int>& test) {
 
 int main() {
     //Feel free to edit the test vector. 
-    std::vector<int>test = {45, 12, 16, 12, 19, 1, 3, 4, 6, 5, 2};
+    std::vector<int> test;
+    int input = 0;
+    while (input != -1) {
+        std::cout << "Input a value into the array: ";
+        std::cin >> input;
+        test.push_back(input);
+    }
+
     std::cout << "Before: ";
     printArray(test);
     heapifyMaxEntire(test);
